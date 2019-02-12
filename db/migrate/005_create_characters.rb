@@ -1,4 +1,4 @@
-class CreateCharecters < ActiveRecord::Migration[4.2]
+class CreateCharacters < ActiveRecord::Migration[4.2]
   def change
     create_table :charecters do |t|
       #primary key of :id is created for us!
